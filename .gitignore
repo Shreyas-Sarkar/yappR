@@ -1,0 +1,38 @@
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.local.example
+!backend/.env.example
+!frontend/.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+backend/venv/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+coverage/
+frontend/.next/
+frontend/node_modules/
+
+# Local data and uploads
+backend/data/uploads/
+backend/data/chroma/
+
+# OS / editor
+.DS_Store
+.vscode/
